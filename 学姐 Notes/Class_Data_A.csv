@@ -1,0 +1,158 @@
+Statistics ,HS,Prerequisite,Intro_Extra ,Countries ,Age,Spouse ,Gender,Class_Standing,Height ,Weight ,Vegetarian,Credits ,Sleep ,Personality,Study_Hours ,GPA,Graduate_GPA ,Day_Born,Section,Clubs ,Prof_Age,Global_Warming ,SAT,Drive,R,Exercise 
+Yes,No,Yes,Extravert,2,20,No,Female,Junior,63,105,No,18,7,Maybe,5,3.5,3.8,Monday,AB,2,40,Somewhat,,110,No,50
+Yes,Yes,Yes,Extravert,9,20,Yes,Male,Sophomore,,,No,13,7,No,30,3.8,3.9,Sunday,AA,0,35,Not al all,800,,No,30
+No,Yes,Yes,Introvert,2,19,No,Female,Sophomore,67,126,No,16,8,Maybe,10,3.45,3.7,Thursday,AA,3,31,A great deal,,75,No,1
+Yes,No,Yes,Extravert,20,19,No,Male,Sophomore,68,133,No,15,7.5,Maybe,12,3.81,3.9,Saturday,AE,3,43,A little,760,,No,0
+No,Yes,Yes,Introvert,12,20,No,Female,Sophomore,5‘2,93,No,18,8.5,No,5,3.75,4,Thursday,AB,1,37,Somewhat,750,,No,60
+Yes,No,Yes,Introvert,1,19,Yes,Male,Senior/Other,70.8,180,No,13,8,Yes,11-Jul,3.69,above 3.5,Saturday,AE,0,35,A great deal,,,No,45
+Yes,No,Yes,Introvert,6,19,No,Female,Sophomore,64.96,110,No,15,8,Maybe,20,3.6,4,Thursday,AC,0,30,Somewhat,,,No,10
+Yes,Yes,Yes,Introvert,11,20,No,Male,Sophomore,75,170,No,18,8,Yes,40,3.71,3.8,Saturday,AA,3,44,A great deal,670,65,No,60
+Yes,No,Yes,Introvert,3,21,No,Male,Junior,66,180,No,13,5,Yes,12,2.8,3.5,Monday,AE,0,31,A great deal,500,128,No,32
+No,No,Yes,Extravert,5,20,Yes,Male,Junior,78,180,No,15,9,No,2,3.67,3.8,Sunday,AB,0,40,A great deal,760,100,No,30
+No,No,Yes,Introvert,1,19,No,Female,Junior,67,130,Yes,14,9,Maybe,25,3.78,3.85,Thursday,AE,3,35,A great deal,780,90,No,70
+Yes,No,Yes,Introvert,5,20,Yes,Female,Sophomore,68.1102,147.71,No,15,8,Maybe,20,3.9,3.9+,Friday,AC,1,Around 30,Somewhat,,60,No,40
+Yes,Yes,Yes,Introvert,5,19,No,Female,Sophomore,5’8,115,No,17,7,No,15,3.7,3.8,Monday,AB,0,35,A little,,90,Yes,
+Yes,Yes,Yes,Extravert,17,18,Yes,Female,Sophomore,5.3,118,No,15,7,Maybe,10,3.8,3.8,Wednesday,AE,0,30,A little,,,No,10
+Yes,No,Yes,Extravert,6,19,Yes,Male,Sophomore,5’9’’,,No,15,8,Maybe,14,3.89,3.9,Friday,AE,0,30,Somewhat,,120,No,180
+No,Yes,No,Extravert,7,18,No,Female,Freshman,69 inches,240,No,18,8,Yes,,,3.75,Friday,AF,1,40,A great deal,620,90,No,60
+No,Yes,Yes,Extravert,7,20,No,Female,Freshman,165,50,No,17,8.5,No,,4,3.9,Thursday,AF,0,30,Somewhat,,,No,30
+Yes,No,Yes,Introvert,0,22,No,Female,Senior/Other,70,175,No,18,7,Yes,10,3.4,3.6,Saturday,AA,0,37,A great deal,,40,No,20
+No,Yes,Yes,Introvert,2,20,No,Female,Junior,67,130,Yes,16,8,No,25,3.6,3.8,Wednesday,AE,1,45,A great deal,,80,No,30
+No,Yes,Yes,Extravert,3,19,No,Female,Sophomore,5’3,115,No,15,7,No,15,3.8,3.8,Tuesday,AE,0,20,A great deal,700,80,No,30
+No,Yes,Yes,Introvert,1,19,No,Female,Sophomore,65,140,Yes,15,7,Yes,25,3.98,3.8,Friday,AD,1,37,A great deal,,70,No,120
+No,Yes,Yes,Introvert,2,18,No,Male,Freshman,5'9 (69 in),165,No,15,8,Yes,,,3.5,Monday,AC,1,45,Somewhat,790,90,No,60
+Yes,No,No,Introvert,5,21,Yes,Male,Junior,5'9,231,No,17,8,Yes,10,3.83,3.9,Wednesday,AC,1,30,A little,800,60,No,30
+Yes,No,Yes,Introvert,5,19,Yes,Female,Sophomore,61.8,132.2,No,15,5,No,42,3.89,3.7,Thursday,AC,0,38,A great deal,690,,No,0
+Yes,No,No,Introvert,2,20,Yes,Female,Junior,5'3,140,No,17,7,Maybe,6,2.97,3.2,Saturday,AC,0,30,A great deal,,70,No,0
+Yes,No,Yes,Introvert,1,20,No,Female,Junior,67,144,No,15,7,No,6,3.78,3.8,Thursday,AB,0,40,A great deal,580,45,No,30
+Yes,Yes,No,Introvert,6,21,No,Male,Senior/Other,"6'0""",155lbs,No,17,7,Maybe,12,3.31,3.4,Wednesday,AE,3,37,A great deal,730,110,No,120
+Yes,No,Yes,Introvert,6,19,No,Female,Sophomore,63,125,No,15,8,No,6,3.78,3.88,Monday,AF,0,33,Somewhat,,95,No,60
+Yes,No,No,Introvert,1,21,No,Female,Senior/Other,64,127,Yes,13,7,Maybe,15,3.8,3.85,Thursday,AA,1,37,A great deal,740,72,No,35
+No,Yes,Yes,Introvert,6,19,No,Female,Junior,67,140,No,15,7,Maybe,15,3.81,3.8,Saturday,AF,0,35,A great deal,,81,No,60
+Yes,Yes,Yes,Introvert,9,19,No,Male,Sophomore,"6'2""",185,No,14,8,Maybe,15-Oct,3.6,3.5,Saturday,AF,0,32-38,A great deal,,115,No,60-100
+No,No,Yes,Extravert,1,19,No,Female,Junior,"5'7""",225,Yes,15,5,No,25,3.48,3.9,Friday,AB,1,32,A great deal,,115,No,180
+Yes,No,Yes,Introvert,8,19,No,Male,Sophomore,74,145,No,15,9,Maybe,40,3.98,3.8,Wednesday,AE,2,41,A great deal,,70,No,35
+Yes,No,Yes,Introvert,3,19,Yes,Female,Sophomore,5.3,119,No,17,7,No,30h,3.82,3.82,Thursday,AB,0,38,Somewhat,,,Yes,0
+Yes,No,Yes,Extravert,3,20,Yes,Female,Sophomore,66.15,143,No,17,8,Yes,10,3.78,3.9,Friday,AB,1,28,Not al all,,,No,1
+Yes,No,No,Extravert,2,19,No,Female,Sophomore,5'5,175,No,12,7,Maybe,17,3.9,3.95,Wednesday,AA,0,31,A great deal,,60,No,30
+No,Yes,Yes,Extravert,4,19,Yes,Female,Sophomore,64,120,No,16,7,Yes,10,3.8,3.9,Sunday,AD,2,,Not al all,,,Yes,30
+Yes,No,Yes,Introvert,3,20,No,Male,Sophomore,6 2,140,No,14,6,Maybe,30,3.2,3.85,Friday,AB,1,35,A little,750,90,No,30
+No,Yes,Yes,Introvert,2,19,No,Female,Sophomore,67,115,Yes,15,8,Maybe,25,3.98,3.9,Thursday,AE,1,30,A great deal,,80,No,50
+Yes,No,No,Introvert,7,23,Yes,Female,Senior/Other,5.5,130,No,16,9,Yes,15,3.47,3.55,Thursday,AC,0,30,Somewhat,800,90,No,60
+No,No,No,Introvert,9,19,No,Male,Sophomore,"5""9",170,No,14,7,Yes,3,3.5,3.8,Monday,AB,0,27,Somewhat,758,,Yes,120
+Yes,No,Yes,Introvert,3,19,No,Male,Sophomore,71,145,No,13,8,Yes,15,3.67,3.8,Saturday,AF,3,50,A great deal,740,90,No,60
+Yes,No,Yes,Introvert,5,20,No,Female,Sophomore,71,180,No,15,8,Yes,15,3.71,3.8,Tuesday,AF,3,50,A great deal,,82,No,60
+Yes,No,Yes,Introvert,5,19,Yes,Female,Senior/Other,66,155,No,19,8,Maybe,20,3.92,3.9,Tuesday,AC,4,41,A great deal,660,80,No,20
+Yes,No,Yes,Extravert,3,20,No,Female,Sophomore,5’7,140,Yes,14,8,Yes,4,3.1,3.6,Monday,AE,0,27,A great deal,,90,No,125
+Yes,No,Yes,Extravert,5,20,Yes,Female,Junior,62.5,110,No,15,7,Yes,15-Dec,3.2,3.8,Wednesday,AA,2,37,Not al all,780,35,No,60
+Yes,No,Yes,Introvert,1,20,No,Female,Junior,61,105,No,15,7,Maybe,10,3.57,3.8,Thursday,AB,0,48,A great deal,800,90,No,1
+Yes,No,No,Introvert,3,20,No,Male,Junior,72,134,No,13,7,No,5,3.7,3.8,Monday,AA,0,35,A great deal,780,80,No,60
+No,Yes,Yes,Introvert,5,20,No,Male,Sophomore,72,140,No,21,7,Maybe,42,3.9,3.9,Saturday,AA,2,30,A great deal,800,90,Yes,90
+Yes,Yes,Yes,Introvert,5,19,No,Female,Sophomore,66,120,Yes,15,7,Maybe,18,3.8,4,Thursday,AE,3,30,Somewhat,,75,No,15
+No,Yes,Yes,Introvert,15,20,No,Female,Junior,63,116,No,15,7,Yes,20?,3.5,3.6,Saturday,AB,1,30,A great deal,740,100,Yes,30
+Yes,Yes,Yes,Introvert,6,20,Yes,Female,Sophomore,5in7,211,No,13,8,Yes,15,3.65,3.75,Thursday,AC,1,35,Somewhat,760,,No,20
+No,Yes,Yes,Introvert,2,20,No,Female,Sophomore,5 ‘4,119,No,15,7,Maybe,25,3.5,3.5,Wednesday,AE,0,Pretty good ,Somewhat,,,No,60
+Yes,No,Yes,Introvert,5,20,Yes,Female,Sophomore,,,No,16,8,No,,,,Sunday,AF,,,Not al all,,,Yes,
+No,No,No,Introvert,5,22,No,Female,Junior,67,125,No,18,5,Maybe,35,3.9,3.9,Sunday,AA,0,,Somewhat,,,No,
+No,Yes,Yes,Introvert,13,20,Yes,Male,Junior,72,125,No,5,8,No,6,3.67,3.8,Wednesday,AA,0,35,Somewhat,790,85,Yes,15
+Yes,No,No,Introvert,2,19,No,Female,Sophomore,63,115,No,15,5,Maybe,20,3.86,3.95,Saturday,AB,0,43,Somewhat,700,50,No,10
+No,No,Yes,Extravert,4,22,No,Female,Junior,5’4,105,No,10,7,No,25,3.4,3.4,Wednesday,AA,2,46,A great deal,720,90,No,60
+Yes,Yes,Yes,Introvert,3,19,No,Male,Sophomore,70,170,No,15,7,No,5,3.7,3.9,Wednesday,AD,0,24,A great deal,770,80,No,30
+Yes,No,No,Introvert,1,20,No,Female,Junior,64,140,Yes,15,9,No,8,2.8,3.5,Friday,AF,5,30,A great deal,550,75,No,30
+Yes,No,Yes,Introvert,8,19,No,Female,Sophomore,66,110,No,15,8,Maybe,30+,3.6,3.8,Saturday,AD,2,30+,Somewhat,,100,No,20
+Yes,Yes,Yes,Extravert,5,20,No,Male,Sophomore,71,180,No,16,6,No,10,2.98,3.45,Wednesday,AA,2,43,A great deal,780,120,No,80
+Yes,No,Yes,Extravert,2,20,Yes,Female,Sophomore,,,No,18,8,Maybe,5,3.7,3.8,Sunday,AC,1,Great ,Somewhat,,80,No,90
+Yes,Yes,Yes,Introvert,6,19,Yes,Male,Sophomore,74,147,No,15,7,Maybe,5,3.73,3.8,Wednesday,AF,3,40,A great deal,,120,No,60
+Yes,Yes,Yes,Introvert,7,20,No,Male,Junior,,,No,15,7,No,8,,,Sunday,AF,1,80,Somewhat,780,,No,30
+No,No,Yes,Introvert,5,21,No,Male,Junior,71,210,No,14,7,Maybe,16,3.85,3.85,Sunday,AC,0,35,A great deal,680,80,No,35
+Yes,No,Yes,Introvert,5,19,No,Male,Sophomore,76,205,No,15,8,Maybe,10,3.16,3.5,Tuesday,AB,0,53,Somewhat,,80,No,90
+No,No,Yes,Introvert,10,,No,Male,Junior,70.86,158.7,No,13,8,Maybe,8,3.37,Higher than 3.5,Saturday,AE,0,30s,Somewhat,,135,No,30 mins
+Yes,Yes,Yes,Extravert,2,19,No,Female,Sophomore,67,140,No,18,,Maybe,15-20,2.5,3.5,Friday,AB,0,37,A little,N/A,80,No,60
+No,Yes,Yes,Extravert,20,20,No,Female,Junior,5’7”,150,No,19,8,No,20,3.55,3.5,Tuesday,AF,0,33,Somewhat,,100,No,45
+Yes,Yes,Yes,Introvert,2,20 years,No,Male,Sophomore,6,199,No,15,7,Maybe,10,3.85,3.9,Wednesday,AA,1,30,Somewhat,,Idk,No,60
+No,No,Yes,Introvert,4,19,No,Male,Sophomore,"6'2""",155,No,16,7,Maybe,4,3.85,doesnt matter,Tuesday,AF,4,40,A great deal,never took it,120,Yes,60-90
+No,Yes,Yes,Introvert,1,18,No,Male,Freshman,"5'10""",170,No,18,7.5,Yes,,,4,Saturday,AC,2,27,A great deal,,60,No,60
+No,No,No,Introvert,15,20,No,Female,Junior,61.5,130,No,15,8,No,20,3.7,3.8,Wednesday,AA,0,39,A great deal,,,No,0
+Yes,Yes,No,Introvert,10,18,No,Female,Sophomore,62,101,No,17,8,Maybe,7,3.9,3.7,Saturday,AF,0,30,A great deal,720,70,No,0
+Yes,No,Yes,Introvert,0,22,Yes,Male,Senior/Other,"6'2""",135,No,18,5,Maybe,6,2.98,3,Saturday,AA,5,38,Somewhat,600,,Yes,0
+Yes,No,No,Introvert,5,20,No,Male,Senior/Other,67,165,No,12,7,No,15,3.53,3.7,Tuesday,AE,1,48,A great deal,770,80,No,90
+No,No,No,Introvert,5,20,No,Male,Junior,6.1,205,No,18,8,No,18,3.7,3.8,Friday,AB,1,great,A great deal,800,140,Yes,16
+Yes,No,Yes,Extravert,2,19,No,Male,Sophomore,6.1,200,No,16,8.3,Yes,～6,3.75,3.8+,Wednesday,AC,1,35,A great deal,,,No,30
+No,Yes,Yes,Introvert,5,19,No,Female,Sophomore,60,130,No,16,7,Maybe,10,3.2,3.8,Sunday,AD,3,40,Somewhat,760,70,No,60
+Yes,No,Yes,Introvert,7,20,No,Male,Junior,74,180,No,15,8,Yes,13,3.1,3.5,Thursday,AA,3,42,A great deal,,85,No,330
+No,No,Yes,Introvert,5,20,No,Male,Sophomore,5'10,160,No,15,7,Maybe,10,3.9,3.9,Wednesday,AE,1,30,A great deal,,,No,90
+Yes,No,Yes,Introvert,4,20,No,Female,Sophomore,"6, 3",107,No,15,7,Maybe,15,3.4,3.8,Friday,AF,0,50,A great deal,750,60,No,30
+No,Yes,Yes,Extravert,3,17,No,Male,Sophomore,73,170,No,17,8,Maybe,,,4,Wednesday,AF,0,38,A great deal,780,110,No,120
+Yes,Yes,Yes,Introvert,8,19,No,Male,Sophomore,5'10,160,No,13,7,Maybe,12,3.9,4,Wednesday,AE,0,34,Somewhat,800,100,No,60
+Yes,Yes,Yes,Extravert,3,19,No,Male,Sophomore,69,200,No,17,7,No,15,3.79,3.9,Friday,AB,1,43,Not al all,,105,No,120
+Yes,No,Yes,Introvert,4,19,Yes,Male,Junior,6,175,No,15,7,Maybe,5,3.88,3.9,Sunday,AD,1,38,Somewhat,790,70,No,40
+No,Yes,Yes,Introvert,13,20,Yes,Male,Junior,72,125,No,5,8,Maybe,6,3.67,3.8,Wednesday,AA,0,35,Somewhat,790,85,Yes,15
+Yes,Yes,Yes,Introvert,7,20,No,Male,Sophomore,66.9,140,No,17,7.5,Maybe,32,3.73,3.7,Thursday,AE,0,45,Somewhat,800,,Yes,60
+No,Yes,Yes,Extravert,4,19,No,Male,Sophomore,78,180,No,15,5,Maybe,,3.65,,Sunday,AF,0,21,A great deal,,100,No,45
+Yes,No,Yes,Introvert,3,19,No,Female,Sophomore,63,140,No,15,8,Yes,24,3.4,4,Tuesday,AA,2,43,A great deal,600,60,No,45
+Yes,No,Yes,Introvert,4,19,Yes,Male,Sophomore,5'5,125,No,15,6,Yes,9,3.6,3.8,Tuesday,AD,1,55,A great deal,,,No,60
+Yes,No,Yes,Extravert,3,20,No,Female,Junior,66,125,Yes,15,6,Yes,15,3.3,3.8,Sunday,AD,1,45,A great deal,800,130,No,120
+Yes,No,No,Extravert,20,20,No,Male,Sophomore,5.8,144,No,17,,Maybe,6-May,3.78,3.85,Friday,AD,0,40,Not al all,800,100,No,20
+No,No,Yes,Introvert,3,20,No,Male,Junior,5'5,135,No,15,7,No,,,3.7,Wednesday,AE,0,29,Somewhat,600,110 mph,No,30-60
+No,Yes,No,Extravert,18,20,No,Female,Junior,66,125,No,18,7,Maybe,20,3.5,3.8,Sunday,AA,2,38,Somewhat,790,100,No,60
+No,No,Yes,Introvert,18,19,No,Male,Junior,65,150,No,15,7,Maybe,24,3.6,3.8,Friday,AF,0,45,A great deal,790,90,No,60
+No,Yes,No,Introvert,3,20,No,Female,Junior,67,115,No,14,7.5,Maybe,20,3.77,3.7,Monday,AC,1,37,A great deal,750,90,No,30
+No,Yes,No,Extravert,3,20,No,Male,Junior,70,165,No,12,6,Yes,14,3.38,3.5,Wednesday,AE,1,34,A great deal,750,110,No,30
+Yes,Yes,Yes,Extravert,7,19,No,Male,Sophomore,67,155,No,12,8,Maybe,20,3.5,3.5,Wednesday,AD,1,43,A great deal,,100,No,90
+Yes,No,Yes,Extravert,5,19,No,Female,Sophomore,66,105,No,18,8,No,15h,3.8,3.8,Monday,AC,0,30,A great deal,,,No,200
+Yes,No,No,Introvert,7,19,No,Male,Sophomore,5'11,141,No,12,7,Yes,idk,3.82,3.99,Wednesday,AB,2?,50,A little,800,65,No,0.5
+No,Yes,Yes,Extravert,10,19,Yes,Male,Sophomore,71,167,No,13,7,Maybe,8-Jul,3.87,3.8,Wednesday,AE,1,35,A little,800,110,No,2-Jan
+No,Yes,No,Extravert,10,20,No,Female,Junior,67.7,166,No,15,7.5,Maybe,8,3.66,3.75,Monday,AA,3,45,Somewhat,800,49,Yes,40
+No,No,Yes,Introvert,6,21,No,Male,Senior/Other,71,170,No,17,7,Yes,40,3.4,3.6,Tuesday,AF,1,Nice but strict ,A great deal,,105,Yes,80
+Yes,Yes,Yes,Introvert,12,20,Yes,Male,Sophomore,72.05,209,No,18,6,Maybe,14,3.8,3.8,Tuesday,AE,0,28,A great deal,,75,No,120
+Yes,Yes,Yes,Extravert,10,19,No,Male,Sophomore,5 9,148,No,15,8,No,20 hrs,3.6,3.9,Friday,AA,3,34,Somewhat,,70,No,90
+No,Yes,Yes,Extravert,2,20,No,Male,Junior,65,147,No,18,,Maybe,25,3.4,3.5,Wednesday,AD,1,35,A great deal,610,90,No,60
+No,Yes,Yes,Introvert,15,20,No,Female,Sophomore,66,125,No,15,4,Yes,12,3.88,3.6,Monday,AD,3,37,A great deal,,75,No,120
+Yes,No,Yes,Extravert,4,18,No,Male,Sophomore,69,135,No,13,,Maybe,7-May,3.48,3.7-3.8,Sunday,AD,0,35,A little,700,85,Yes,30
+Yes,Yes,Yes,Introvert,8,19,No,Male,Sophomore,70.1,164,No,18,7.5,Maybe,30hrs,3.9,3.9,Thursday,AD,3,30,A great deal,,110,No,60
+Yes,Yes,Yes,Introvert,10,21,No,Female,Junior,65,123,No,15,8,Maybe,,,3.9,Sunday,AA,0,37,A great deal,,,No,60
+No,Yes,Yes,Introvert,4,19,No,Female,Sophomore,61,130,No,13,8,Yes,10,3.5,3.5,Saturday,AE,0,35,Somewhat,640,80,No,60
+No,No,Yes,Introvert,10,22,Yes,Male,Senior/Other,5’10,150,No,15,7,No,10,3.6,3.6,Friday,AB,0,40,A great deal,780,80,Yes,45
+Yes,No,Yes,Extravert,3,19,No,Male,Sophomore,5'6,110,No,15,7,Maybe,5,3.8,3.9,Friday,AE,4,50,Somewhat,,,No,120
+Yes,Yes,Yes,Introvert,3,21,No,Male,Sophomore,69.7,135 pounds,No,17,7,Maybe,12 hours,around 3.3,3.7-4,Thursday,AB,0,30,Somewhat,,,No,60
+Yes,No,No,Introvert,3,19,No,Male,Sophomore,7086.61,176.37,No,18,7.5,Maybe,10,3.8,3.96,Friday,AA,2,30,A great deal,800,90,Yes,2
+No,No,Yes,Introvert,6,20,No,Male,Junior,66,150,No,15,8,Yes,10,3.6,3.7,Tuesday,AF,0,38,Somewhat,550,85,No,15
+Yes,Yes,Yes,Extravert,3,19,Yes,Male,Sophomore,"5,7",130,No,18,10,No,0,3.6,4,Monday,AB,1,19,A great deal,760,,No,0
+Yes,No,Yes,Introvert,6,19,No,Male,Sophomore,6,143,No,15,7,Maybe,20,3.5,3.7,Thursday,AD,0,35,A little,760,90,No,20
+Yes,No,Yes,Introvert,5,20,Yes,Male,Sophomore,5'11,210lb,No,17,7,Yes,7,,3.9,Wednesday,AC,2,40,A great deal,780,100 mph,No,30
+Yes,No,Yes,Introvert,7,19,Yes,Male,Sophomore,5”10,180,No,15,6.5,Yes,2,3.83,3.95,Thursday,AF,0,96350,Somewhat,790,85,No,10
+No,Yes,Yes,Extravert,30,20,No,Male,Junior,76,210,No,13,9,Maybe,10,3.51,3.7,Friday,AD,0,33,Somewhat,600,110,No,10
+No,Yes,Yes,Extravert,5,18,No,Female,Freshman,64.96,116.84,No,13,7,Maybe,,,3.9,Thursday,AF,0,33,Not al all,790,,No,120
+Yes,Yes,Yes,Introvert,15,19,No,Male,Sophomore,,135,No,15,7,Maybe,5,3.75,3.8,Wednesday,AD,0,33,Somewhat,800,80,No,60
+Yes,Yes,Yes,Introvert,3,20,Yes,Male,Sophomore,72,170,No,13,8,Yes,15,3.48,3.7,Tuesday,AD,0,32,A great deal,,,No,30
+Yes,No,Yes,Introvert,2,19,Yes,Male,Sophomore,6'2,120,No,15,,No,0,3,3.8,Monday,AA,0,50,Not al all,600,145,No,69
+Yes,No,Yes,Introvert,4,18,Yes,Male,Sophomore,70.1,138,No,18,7,No,4,3.83,3.7,Thursday,AE,1,52,A little,800,,No,10
+Yes,No,No,Introvert,2,20,Yes,Female,Junior,63,141.2,No,17,7,Maybe,6,2.91,3.2,Saturday,AC,0,30,A great deal,630,70,No,0
+Yes,No,Yes,Introvert,5,19,No,Female,Freshman,5'11,155,Yes,16,9,No,15,4,3.8,Thursday,AA,2,30,A great deal,,70,No,30
+Yes,No,Yes,Introvert,11,19,No,Male,Sophomore,5’8,135,No,15,8,No,20,3.7,3.8,Monday,AA,1,50,Somewhat,,,No,
+Yes,No,No,Extravert,7,19,No,Male,Freshman,6'2,160,No,17,7,Maybe,,,3.8,Friday,AD,2,36,Not al all,800,,No,
+Yes,No,Yes,Introvert,2,20,No,Female,Sophomore,5.7,140,No,16,6,Yes,3,3.6,3.9,Sunday,AC,0,38,A little,,,No,0
+No,Yes,Yes,Introvert,11,19,No,Male,Sophomore,5'9,235.9,No,15,7,Maybe,6,3.4,3.8,Thursday,AF,2,31,A great deal,800,,No,
+Yes,No,Yes,Introvert,2,20,No,Male,Sophomore,72,200,No,15,7.5,Yes,15,3.8,3.9,Saturday,AE,0,37,Somewhat,700,90,No,60
+Yes,Yes,Yes,Extravert,3,19,No,Male,Junior,68.8,121,No,13,10,Maybe,20,3.88,4,Monday,AA,1,30,Somewhat,,,No,60
+Yes,No,Yes,Introvert,1,21,Yes,Male,Junior,71,165,No,14,7,Yes,25-35,3,3.5,Monday,AB,0,30,A great deal,600,100,No,60-90
+Yes,No,Yes,Introvert,10,21,No,Male,Sophomore,69.1,152,No,15,7,Maybe,50,3.65,3.8,Saturday,AE,0,40,Somewhat,770,80 miles/h,Yes,50
+Yes,No,Yes,Introvert,8,20,No,Male,Sophomore,65,135,No,15,7,Maybe,15,3.2,3.7,Saturday,AD,1,43,Somewhat,700,93,No,90
+Yes,No,Yes,Extravert,10,20,No,Female,Sophomore,67,130,No,18,8,Maybe,10,3.83,3.9,Wednesday,AC,2,30,Somewhat,780,80,No,1
+No,Yes,Yes,Extravert,6,20,Yes,Male,Sophomore,67 inches,280 pounds,No,13,8,Maybe,6,3.87,4,Sunday,AB,6,30 maybe,Somewhat,nope,nope,No,10
+No,Yes,No,Introvert,7,20,Yes,Male,Sophomore,67,130,No,16,8,Maybe,7,3,3.3,Tuesday,AC,1,35,A little,770,90,No,30
+Yes,No,Yes,Introvert,10,19,No,Female,Sophomore,5'1,121,No,18,7,Maybe,10,3,3.8,Wednesday,AB,2,40,A great deal,700,,No,120
+Yes,No,Yes,Introvert,6,19,Yes,Male,Sophomore,68,143,No,13,8,Maybe,15,3.7,3.9,Wednesday,AF,0,35,A little,,155,No,10
+Yes,No,Yes,Introvert,9,19,No,Female,Sophomore,66,115,No,15,9,Maybe,20,3.7,3.8,Thursday,AA,2,40,A little,,80,No,20
+No,No,Yes,Introvert,4,21,Yes,Male,Senior/Other,73.622,132,No,12,7,Maybe,2,3.7,3.75,Tuesday,AC,0,30,A little,790,,Yes,60
+No,Yes,Yes,Extravert,3,21,No,Male,Junior,72,179,No,14,7,Yes,4,3.4,3.5,Friday,AD,0,40,A little,500,120,Yes,60
+Yes,No,No,Extravert,4,21,No,Male,Senior/Other,5.08,152,No,14,6,Maybe,,3.6,3.7,Tuesday,AC,0,40,A great deal,800,100,No,60
+Yes,No,Yes,Introvert,2,18,Yes,Male,Freshman,74,183,No,15,10,Yes,,3.93,3.9,Saturday,AA,4,34,A great deal,,105,No,140
+Yes,Yes,Yes,Extravert,5,19,No,Female,Sophomore,65,110,No,18,7,No,10h,3.75,3.75,Wednesday,AC,2,45,Somewhat,,,No,30mins
+Yes,No,No,Introvert,5,19,Yes,Male,Sophomore,5‘11,280,No,17,7,Maybe,10,3.6,3.8,Wednesday,AC,1,26,A little,,110,No,30
+Yes,No,Yes,Extravert,2,20,Yes,Male,Freshman,69,152,No,15,6,No,40,3.7,4,Wednesday,AE,0,38,A great deal,,120,No,80
+Yes,No,Yes,Extravert,5,19,No,Male,Sophomore,5.8,230,No,15,9,Yes,5,3.8,3.9,Tuesday,AD,0,30,A great deal,,120,Yes,30
+Yes,Yes,Yes,Extravert,5,19,No,Male,Sophomore,5 ft 10,150,No,15,,Maybe,9,3.7,3.8,Thursday,AB,1,34,Somewhat,750,,Yes,30
+No,No,No,Introvert,6,21,Yes,Male,Junior,74,230,No,16,7.5,Maybe,5,3.42,3.8,Monday,AD,2,45,A great deal,690,90,Yes,60
+No,No,Yes,Extravert,13,20,Yes,Male,Junior,69,152,No,15,7,Maybe,,"3,85","4,0",Saturday,AD,2,34,Somewhat,,105,No,20
+No,No,Yes,Introvert,2,20,Yes,Male,Sophomore,6,122,No,15,7,Yes,,3.96,4,Thursday,AD,0,28,A little,,70,No,30

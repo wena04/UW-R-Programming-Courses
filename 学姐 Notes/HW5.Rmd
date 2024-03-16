@@ -1,0 +1,244 @@
+---
+title: "Homework 5"
+author: "Helinda He"
+date: "2022-11-21"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Question 1
+
+### a)
+Men: M ~ N(4313, 583)
+
+Women: W ~ N(5261, 807)
+
+### b)
+Leo: (4948 - 4313) / 583 = 1.089
+
+Mary: (5513 - 5261) / 807 = 0.312
+
+### c)
+From the z value, Mary have a better result than Leo because Mary has a smaller z value. 
+
+### d)
+```{r}
+1 - pnorm(q = 4948, mean = 4313, sd = 583)
+```
+
+Leo finished faster than 13.80% of the participants
+
+### d)
+```{r}
+1 - pnorm(q = 5513, mean = 5261, sd = 807)
+```
+
+Mary finished faster than 37.74% of the participants. 
+
+### e)
+Yes, the probability will change since the distribution is not normal. 
+
+# Question 2
+
+### a) 
+According to the Z-Table, the z value of the student who scored in the 80th percentile is z = 0.84. The observation will be 159.6729
+
+### b)
+According to the Z-Table, the z value of the student who scored greater than 30% of the test taker is z = -0.52. The observation will be 147.36. 
+
+
+# Question 3
+
+### a)
+```{r}
+qnorm(0.05, mean = 4313, sd = 583)
+```
+
+The time for the 5% fastest participants in men group is 3354.05
+
+### b)
+```{r}
+qnorm(0.90, mean = 5261, sd = 807)
+```
+ 
+The time for the 10% slowest participants in women group is 6295.212. 
+
+# Question 4
+
+### a)
+```{r}
+1 - pnorm(83, mean = 77, sd = 5)
+```
+
+The probability will be 11.51%. 
+
+### b)
+```{r}
+qnorm(0.1, mean = 77, sd = 5)
+```
+
+The coldest temperature is 70.59224 Fahrenheit. 
+
+
+# Question 5
+
+### a)
+```{r}
+pnorm(0, mean = 14.7, sd = 33)
+```
+
+The probability of the portfolio being negative return will be 0.3280. 
+
+### b)
+```{r}
+qnorm(0.85, mean = 14.7, sd = 33)
+```
+
+The 15% of returns will be 48.90% percent.
+
+# Question 6
+
+### a)
+Yes, it can be used the binomial distribution because it have independent samples, the probability is constant, and there is only two outcome can exist. 
+
+### b)
+```{r}
+dbinom(97, 100, .90)
+```
+
+The probability of exactly 97 out of 100 randomly sampled American adults had chickenpox
+during childhood is 0.0059. 
+
+### c)
+```{r}
+dbinom(3, 100, .10)
+```
+
+The probability of exactly 3 out of a new sample of 100 American adults have not had
+chickenpox in their childhood is also 0.0059. 
+
+### d)
+```{r}
+1 - dbinom(0, 10, .90)
+```
+
+The probability of at least 1 out of 10 randomly sampled American adults have had chickenpox is 1. 
+
+### e)
+```{r}
+pbinom(3, 10, .10)
+```
+
+The probability of at most 3 out of 10 randomly sampled American adults have not had
+chickenpox is 0.9872. 
+
+
+# Question 7
+
+### a)
+120 * 0.9 = 108
+Var(people out of 120 that have chickenpox in their childhood) = 108 * 0.1 = 10.8
+SD = $\sqrt{10.8} = 3.29$
+
+### b)
+No, because 105 is less than one standard deviation. 
+
+### c)
+```{r}
+pbinom(105, 120, .9)
+```
+
+The probability of the people out of 120 that have chickenpox in their childhood is less than 105 is 0.2182. 
+
+# Question 8
+
+### a)
+```{r}
+dbinom(2, 3, .25)
+```
+
+The probability of two children who have the disease is 0.1406. 
+
+### b)
+```{r}
+dbinom(0, 3, .25)
+```
+
+The probability of none of the three children will have the disease is 0.4219
+
+### c)
+```{r}
+1 - dbinom(0, 3, 0.25)
+```
+
+The probability of at lease one of the three children do not carry the disease is 0.5781. 
+
+### d)
+$P(X = x) = (1-p)^{x-1} * P = (1 - 0.25)^{x-1} * (0.25)$
+$P(X = 3) = (1 - 0.25)^{3 -1} * (0.25) = (0.75)^2 * (0.25) = 0.1406$
+
+The probability of the fist children with the disease is the third child is 0.1406. 
+
+
+# Question 9
+Mean = 0.75 * 500 = 375
+SD = $\sqrt{0.75 * 500 * (1 - 0.75)} = 9.6825$
+
+### a)
+```{r}
+pnorm(400, mean = 375, sd = 9.6825) - pnorm(360, mean = 375, sd = 9.6825)
+```
+
+The probability between 400 and 600 of the drivers have the seat belt on is 0.9344. 
+
+### b)
+```{r}
+pnorm(400, mean = 375, sd = 9.6825)
+```
+
+The probability of fewer than 400 people wearing the seat belt is 0.9951. 
+
+### c)
+```{r}
+pnorm(400, mean = 375, sd = 9.6825)
+```
+
+The probability of at most there are 400 people wearing the seat belt is 0.9951. 
+
+
+# Question 10
+
+### a)
+```{r}
+pnorm(191, mean = 191, sd = 22.4)
+```
+
+The probability of the diameter of trees that is above 191 inches is 0.5.
+
+### b)
+```{r}
+pnorm(190, mean = 191, sd = 22.4) - pnorm(180, mean = 191, sd = 22.4)
+```
+
+The probability of the diameter of trees between 180 and 190 inches is 0.1705. 
+
+### c)
+```{r}
+qnorm(0.25, mean = 191, sd = 22.4)
+```
+
+The first 25% of the trees is 175.8914. 
+
+### d)
+```{r}
+qnorm(0.75, mean = 191, sd = 22.4)
+```
+
+The third 25% of trees is 206.1086. 
+
+### e)
+The IQR will be 206.1086 - 175.8914, which will come up to 30.2172. 

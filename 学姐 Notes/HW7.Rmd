@@ -1,0 +1,214 @@
+---
+title: "Homework 7"
+author: "Helinda He"
+date: "2022-12-06"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Question 1
+
+### a)
+The Margin of error is equals to the z value times the standard error. 
+
+$ME = 1.96 * \sqrt{\frac{0.66*(1-0.66)}{1018}} = 0.0291$
+
+### b)
+p hat = 0.66
+
+p = 0.7
+
+n = 1018
+
+alpha = 0.05
+
+Ho: p = 0.7
+
+Ha: p > 0.7
+
+Test z value:
+$Z=\frac{\hat{p}-p}{\sqrt{\frac{p*(1-p)}{n}}}= \frac{0.66-0.7}{\sqrt{\frac{0.7*(1-0.7)}{1018}}} = -2.78$
+
+P-value: 
+P(Z > -2.78) = 1 - 0.0027 = 0.9973
+
+Since the P-value(0.9973) is greater than alpha(0.05), so we fail to reject Ho and there is no sufficient evidence to prove the hypothesis.
+
+
+# Question 2
+
+### a)
+The 61% is a sample statistic because it is based on the sample(1578) of every person who live in the States. 
+
+### b)
+$1.96*\sqrt{\frac{0.61*(1-0.61)}{1578}}=0.024$
+
+The interval of 95% of the confidence interval is (58.6%, 63.4%)
+
+### c)
+It is true for this data because if a data statisify n * p >= 10 and n * (1 - p) >= 100, then the distribution of the data is normal. 
+
+### d)
+It is false because people cannot reject the proportion is above or below 50% from the interval. 
+
+
+# Question 3
+p hat = 0.61
+
+confidence interval = 0.02
+
+$n=\frac{2.32^2*0.61*0.39}{0.02^2}=3201.182=3202$
+
+There should be at least 3202 of American who needs to do the survey. 
+
+
+# Question 4
+CA: 
+
+P1 hat = 0.08
+
+n1 = 11545
+
+OR:
+
+P2 hat = 0.088
+
+n2 = 4691
+
+$\hat{p1}-\hat{p2} = 0.08 - 0.088 = -0.008$
+
+$1.96*\sqrt{\frac{\hat{p1}*(1-\hat{p1})}{n1}+\frac{\hat{p2}*(1-\hat{p2})}{n2}} = 1.96*\sqrt{\frac{0.08*(1-0.08)}{11545}+\frac{0.088*(1-0.088)}{4691}} =0.009498$
+
+Confidence interval: (-0.0175, 0.001498).
+
+
+# Question 5
+
+### a)
+CA:
+
+P1 hat = 0.08
+
+n1 = 11545
+
+OR:
+
+P2 hat = 0.088
+
+n2 = 4691
+
+p hat = (924 + 412) / (11545 + 4691) =0.082
+
+Hypothesis:
+
+Ho: P1 = P2
+
+Ha: P1 not equals P2
+
+Test:
+
+$Z=\frac{\hat{P1}-\hat{P2}}{\sqrt{\hat{p}*(1-\hat{p})(\frac{1}{n1}+\frac{1}{n2})}} = \frac{0.08-0.088}{\sqrt{0.082*(1-0.082)(\frac{1}{11545}+\frac{1}{4691})}} = -1.68$
+
+Find the P-value:
+
+2 * P(Z > 1.68) = 2 * (1 - 0.9535) = 0.093
+
+The p-value(0.093) is greater than the alpha(0.05) we failed to reject the Ho which means that there is no sufficient evidence to support the hypothesis. 
+
+### b)
+Since we failed to reject the Ho and the Ha is true, so this question is a type 2 error. 
+
+
+# Question 6
+
+### a)
+P1 hat = 264 / 318 = 0.83
+
+P2 hat = 299 / 369 = 0.81
+
+p = 0.82
+
+n1 = 318
+
+n2 = 369
+
+Ho: P1 = P2
+
+Ha: P1 not equals to P2
+
+Test:
+$Z=\frac{\hat{P1}-\hat{P2}}{\sqrt{\hat{p}*(1-\hat{p})(\frac{1}{n1}+\frac{1}{n2})}} =\frac{0.83-0.81}{\sqrt{0.82*(1-0.82)(\frac{1}{318}+\frac{1}{369})}}=0.68$ 
+
+P-value:
+2 * P(Z > 0.68) = 2 * (1 - 0.7517) = 0.4966
+
+The P-value(0.2483) is greater then the alpha(0.05), so we failed to reject Ho which means that proportion are equal. 
+
+### b)
+It it a type 2 error because P1 does not equals to P2 and we failed to reject Ho. 
+
+
+# Question 7
+
+### a)
+```{r}
+table <- matrix(c(26, 94, 120, 10, 110, 120, 36, 204, 240), ncol = 3, byrow = TRUE)
+colnames(table) <- c("Yes", "No", "Total")
+rownames(table) <- c("Nevaripine", "Lopinavir", "Total")
+table <- as.table(table)
+table
+```
+
+### b)
+Ho: Pn = Pl
+
+Ha: Pn not equals to Pl
+
+### c)
+Test:
+
+$Z=\frac{\hat{P1}-\hat{P2}}{\sqrt{\hat{p}*(1-\hat{p})(\frac{1}{n1}+\frac{1}{n2})}} = \frac{0.22-0.083}{\sqrt{0.15*(1-0.15)(\frac{1}{120}+\frac{1}{120})}} = 2.89$
+
+P-value
+
+P(Z > 2.89) = 1 - 0.9981 = 0.0019
+
+Since the p-value is smaller than the alpha(0.05) so there is a strong evidence to prove that there is a huge difference between the Nevaripine and Lopinavir groups. 
+
+
+# Question 8
+Pp = 104 / 311 = 0.334
+
+Ps = 109 / 322 = 0.339
+
+Np = 311
+
+Ns = 322
+
+P = 213 / 633 = 0.336
+
+### a)
+Pp - Ps = 0.334 - 0.339 = -0.005
+
+$2.57*\sqrt{\frac{\hat{Pp}*(1-\hat{Pp})}{Np}+\frac{\hat{Ps}*(1-\hat{Ps})}{Np}} = 2.57*\sqrt{\frac{0.334*(1-0.334)}{311}+\frac{0.339*(1-0.339)}{322}} = 0.0965$
+
+The 90% of confidence interval is (-0.1015, 0.0915)
+
+### b)
+Ho: Pp = Ps
+
+Ha: Pp < Ps
+
+Test:
+$Z=\frac{\hat{Pp}-\hat{Pp}}{\sqrt{\hat{P}*(1-\hat{P})(\frac{1}{Np}+\frac{1}{Ns})}}= \frac{0.334-0.339}{\sqrt{0.336*(1-0.336)(\frac{1}{311}+\frac{1}{322})}}= -0.13$
+
+P-value:
+P(Z < -0.13) = 0.4483
+
+Since the p value(0.4483) is greater than alpha(0.1) so we failed to reject Ho which means that there is a strong evidence that the return rate of the pain is lower than the skydiver. 
+
+

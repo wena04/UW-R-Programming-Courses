@@ -1,0 +1,81 @@
+---
+title: "Lab 4"
+author: "Helinda He"
+date: "2022-11-15"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(openintro)
+```
+
+```{r}
+fastfood
+```
+
+```{r}
+mcdonalds <- fastfood %>%
+  filter(restaurant == "Mcdonalds")
+dairy_queen <- fastfood %>%
+  filter(restaurant == "Dairy Queen")
+```
+
+
+# Question 1
+Make a plot (or plots) to visualize the distributions of the amount of calories from fat of the options from these two restaurants. How do their centers, shapes, and spreads compare?
+
+```{r}
+ggplot(data = mcdonalds, aes(x = cal_fat)) + geom_histogram()
+ggplot(data = dairy_queen, aes(x = cal_fat)) + geom_histogram()
+```
+
+*Answers*: The distribution of calories from fat for items affered at McDonalds is centered atound 250 with some items affering higher calories from fat (this distribution is right-skewed). The distribution of calories from fa for items offerent at Dariy Queen is centered around 250 with soem items affering 
+
+# Question 2
+Based on the this plot, does it appear that the data follow a nearly normal distribution?
+
+```{r}
+dqmean <- mean(dairy_queen$cal_fat)
+dqsd <- sd(dairy_queen$cal_fat)
+```
+
+
+```{r}
+ggplot(data = dairy_queen, aes(x = cal_fat)) +
+  geom_blank() +
+  geom_histogram(aes(y = ..density..)) +
+  stat_function(fun = dnorm, args = c(mean = dqmean, sd = dqsd), col = "tomato")
+```
+
+It does not look like calories from fat is normally distributed because the data do not fit the normal distribution with mean 260 and SD 156 very well. Most notably, at the peak cal_fat, the fitted normal distribution has a much lower frequency than the observed data. 
+
+# Question 3
+
+```{r}
+ggplot(data = dairy_queen, aes(sample = cal_fat)) + geom_line(stat = "qq")
+```
+
+```{r}
+sim_norm <- rnorm(n = nrow(dairy_queen), mean = dqmean, sd = dqsd)
+```
+
+# Question 6
+
+What is the probability that a randomly chosen DQ product has over 600 calories from fat? 
+
+```{r}
+pnorm(q = 600, mean = dqmean, sd = dqsd)
+```
+
+1. What is the probability that a subway item has over 500 calories?
+```{r}
+subway <- fastfood %>%
+  filter(restaurant == "Subway")
+
+1 - pnorm(q = 900, 
+          mean = mean(subway$calories), 
+          sd = sd(subway$calories))
+```
+

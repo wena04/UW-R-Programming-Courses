@@ -1,0 +1,79 @@
+---
+title: "Lab 2"
+author: "Helinda He"
+date: "2022-10-13"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(openintro)
+library(tidyverse)
+```
+
+```{r}
+colnames(present)
+unique(present$year)
+dim(present)
+
+data <- present
+```
+
+
+How do these counts compare to Abruthnot's? Are they of similar?
+```{r}
+present
+arbuthnot
+```
+
+*Answer*: The counts in the in the arbuthnot is lower than the counts in the present dataset. This is because the arbuthnot dataset has baptism records for the 1600s. 
+
+Make a plot that displays the proportion of boys born over time. What do you see? Does Arbuthnot's observation about boys being in greater proportion than girls hole up in the US?
+
+```{r}
+boys_df <- present %>%
+    mutate(total = boys + girls, 
+           prop_boys = boys / total)
+
+ggplot(data = boys_df, aes(x = year, y = prop_boys)) + geom_line() + geom_point()
+```
+
+
+In what year did we see the most total number of births in the US?
+
+```{r}
+present %>%
+  mutate(total = boys + girls) %>%
+  arrange(desc(total))
+```
+
+```{r}
+present %>%
+  select(girls)
+```
+
+```{r}
+present %>%
+  filter(year == 1990)
+```
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

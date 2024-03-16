@@ -1,0 +1,184 @@
+---
+title: "Homework 8"
+author: "Helinda He"
+date: "2022-12-08"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Question 1
+
+### a)
+Ho: u = 8
+
+Ha: u not equals to 8
+
+In word: 
+
+Ho: The average of people in New York per night is 8 hours
+
+Ha: The average of peole in New York per nigh is higher or lower than 8 hours. 
+
+### b)
+The Ho and Ha are independent. 
+
+$T=\frac{mean - u}{\frac{S}{\sqrt{n}}} = \frac{7.73-8}{\frac{0.77}{\sqrt{25}}} = -1.75$
+
+degrees of freedom: 25 - 1 = 24
+
+### c)
+
+```{r}
+2 * pt(q = -1.75, df = 24)
+```
+
+p-value = 0.093
+
+The p-value means that the probability of the random sample of 25 people who lives in New York whose average hours of sleep is 7.73 hours. 
+
+### d)
+Since p-value(0.093) is greater than 0.05, so we do not reject Ho. The result does not provide a sufficient evidence that people in New York per nigh is higher or lower than 8 hours.
+
+### e)
+$1.71*\frac{s}{\sqrt{n}} = 1.71 *\frac{0.77}{\sqrt{25}} = 0.26334$
+
+The 90% confidence interval is (7.46666, 7.99334)
+
+The 8 hours is not in the interval. 
+
+
+# Question 2
+mean1 = 44.51
+
+mean2 = 56.81
+
+SD1 = 13.32
+
+SD2 = 16.13
+
+n1 = 23
+
+n2 = 23
+
+Ho: u99 = u100
+
+Ha: u99 does not equals to u100
+
+Test of statistic:
+
+$T=\frac{(mean1-mean2)-(u1-u2)}{\sqrt{\frac{SD1^2}{n1}+\frac{SD2^2}{n2}}} = \frac{(44.51-56.81)}{\sqrt{\frac{13.32^2}{23}+\frac{16.13^2}{23}}} = -2.81988$
+
+p-value: 
+```{r}
+2 * pt(q = -2.81988, df = 22)
+```
+
+The p-value is 0.00997. 
+
+Since the p-value(0.00997) is smaller than 0.05, we reject Ho. That provides a strong evidence that there is a difference between the average standardized prices of 0.99 and 1 carat diamonds.
+
+
+# Question 3
+
+### a)
+mean diff = -3.33
+
+SD diff = 3.01
+
+n1 = 6
+
+n2 = 6
+
+Ho: udiff = 0
+
+Ha: udiff not equals o 0
+
+Test statistic:
+
+$T=\frac{mean diff}{\sqrt{\frac{SD diff^2}{n}}}=\frac{-3.33}{\sqrt{\frac{3.01^2}{6}}} = -2.71$
+
+p-value: 
+```{r}
+2 * pt(q = -2.71, df = 5)
+```
+
+The p-value is 0.0423
+
+Since the p-value(0.0423) is smaller than 0,05, we reject Ho. That gives us the data provide a sufficient evidence that the average number of accident are different when it is Friday on the 6th and Friday on the 13th. 
+
+### b)**
+$2.57*(\sqrt{\frac{SD diff^2}{n}}) = 2.57*(\sqrt{\frac{3.01^2}{6}}) = 3.16$
+The 95% confidence of interval is (-6.49, -0.17)
+
+### c)
+Since it is a observational study, we cannot conclude that there are causation between car accident and the Fridays on the 13th. 
+
+
+# Question 4
+$2.07*(\frac{s1}{\sqrt{n1}}+\frac{s2}{\sqrt{n2}}) = 2.07*(\frac{13.32}{\sqrt{23}}+\frac{16.13}{\sqrt{23}})=9.03$
+
+The 95% confidence of interval is(-21.33, -3.27)
+
+
+# Question 5
+
+### a)
+The body weight of chickens fed linseed was 218.75 g. The body weight of chickens eating horse bean was 160.20 g. The weight distribution of both chickens was essentially symmetrical. Chickens eating linseed were heavier than chickens eating horse bean. 
+
+### b)
+mean1 = 160.20
+
+mean2 = 218.75
+
+SD1 = 38.63
+
+SD2 = 52.24
+
+n1 = 10
+
+n2 = 12
+
+Ho: udiff = 0
+
+Ha: udiff not equals o 0
+
+Test statistic:
+
+$T=\frac{(mean1-mean2)-(u1-u2)}{\sqrt{\frac{SD1^2}{n1}+\frac{SD2^2}{n2}}}= \frac{(160.20-218.75)}{\sqrt{\frac{38.63^2}{10}+\frac{52.24^2}{12}}} =-3.016$
+
+p-value:
+```{r}
+2 * pt(q = -3.016, df = 9)
+```
+
+The p-value is 0.0146. 
+
+Since the p-value(0.0146) is smaller than 0.05 so we reject Ho. That shows that there are sufficient evidence to prove that there are different between the weight of chicken with linseed and horse bean. 
+
+### c)
+It is possible that we will have Type 1 error because the p-value is smaller than 0.05 and we reject Ho. 
+
+### d)
+Yes, it will change our conclusion since the p-value(0.0146) is greater than 0.01 so we failed to reject Ho. 
+
+
+# Question 6
+$2.49*(\frac{s1}{\sqrt{n1}}+\frac{s2}{\sqrt{n2}}) = 2.49*(\frac{5.29}{\sqrt{26}}+\frac{5.01}{\sqrt{26}}) = 3.56$
+
+The 98% confidence interval is (-8.52, -1.4)
+
+
+# Question 7
+
+### a)
+False, because both n1 and n2 should be greater than 30. 
+
+### b)
+True, based on the centered limit theorem. 
+
+### c)
+False, because the pool standard error is needed when both of the SD are equal. 

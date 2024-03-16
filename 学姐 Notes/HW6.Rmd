@@ -1,0 +1,172 @@
+---
+title: "HW 6"
+author: "Helinda He"
+date: "2022-12-02"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Question 1
+
+### a)
+Proportion
+
+### b)
+Mean
+
+### c)
+Proportion
+
+### d)
+Proportion
+
+### e)
+Mean
+
+# Question 2
+
+### a)
+The population to be considered is  adults in United States. 
+
+### b)
+The parameter being estimate is the adult in the United States that could not cover a $400 unexpected expense without borrowing money or going into deb. 
+
+### c)
+The point estimate for the parameter = 322 / 765 = 0.420915
+
+### d)
+standard error
+
+### e)
+$SE = \sqrt{\frac{\hat{p}*(1-\hat{p})}{n}} = \sqrt{\frac{0.4209*(1-0.4209)}{765}}=0.0178$
+
+### f)
+I think it is a surprising result because there is more than 4 standard error between 0.5(p) and 0.4209(p hat). 
+
+### g)
+$SE = \sqrt{\frac{p*(1-p)}{n}} = \sqrt{\frac{0.4*(1-0.4)}{765}}=0.0177$
+The result value did not change very much there is only 0.0001 difference. 
+
+
+# Question 3
+
+### a)
+False, because:
+$\hat{p}=0.52, p=0.5$ 
+
+$n=\frac{2.57*0.52*(1-0.52)}{(0.024)^2}=1113.667=1114$
+
+Test Z-value:
+$Z=\frac{\hat{p}-p}{\sqrt{\frac{p*(1-p)}{n}}}=\frac{0.52-0.5}{\sqrt{\frac{0.5*(1-0.5)}{1114}}}=1.335065$
+
+P-value = 0.9099
+
+The p-value(0.9099) is greater than alpha(0.01) which means that we faild to reject H_o and there is no sufficient evidence to prove the hyphothesis. 
+
+### b)
+False, because the standard error helps to find the range of the percentage but not the population of the study. 
+
+### c)
+False, because if people want to have a samller standard error, they need to increase the sample size. 
+
+### d)
+False, because the 99% of confidence interval has a wider interval than 90% of confidence interval. 
+
+
+# Question 4
+
+### a)
+We are 95% confident that the true proportion is between 3.40 and 4.24. 
+
+### b)
+The 95% confidence interval is a range of values that you can be 95% confident contains the true mean of the population. 
+
+### c)
+The 99% confidence interval is wider than the 95% confidence interval. 
+
+### d)
+I think the standard error will be larger since the sample is smaller. 
+
+
+# Question 5
+p hat = 142 / 603 = 0.2355
+
+n = 603
+
+$CI + \alpha = 1$
+
+$\alpha = 1 - 0.95 = 0.05$
+
+$CI=\hat{p}±Z_{\frac{\alpha}{2}}*\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} = 0.23±1.65*\sqrt{\frac{0.23(1-0.23)}{603}}=(0.2017, 0.2583)$
+
+The 95% confidence interval is (20.17%, 25.83%). 
+
+# Question 6
+The error of this problem is that the p is 25%, so the hypothesis is needed to based on the population proportion. The H0 will be p equals to 0.25 and the Ha will be p does not equals to 0.25. 
+
+# Question 7
+p = 0.08
+
+p hat = 21 / 194 = 0.1082
+
+n = 194
+
+Hypothesis:
+
+Ho: p = 0.08
+
+Ha: p not equal 0.08
+
+Test z value:
+$Z=\frac{\hat{p}-p}{\sqrt{\frac{p*(1-p)}{n}}} = \frac{0.1082-0.08}{\sqrt{\frac{0.08*(1-0.08)}{194}}}=1.45$
+
+Find the P-value:
+P(Z > 1.45) = 1 - 0.9265 = 0.0735
+
+
+0.0735 > 0.05 then we fail to reject Ho, we do not have sufficient evidence to prove. 
+
+
+# Question 8
+True. When the sample size getting larger, then the standard error will be smaller. Under this situation, people can find that the null value and point estimate are statistically significant. 
+
+# Question 9
+
+### a)
+False, because the Type 1 error occurs when a null hypothesis is rejected. 
+
+### b)
+False, because when the p-value is greater than the level of significance, then it fails to reject the null hypothesis. 
+
+### c)
+True, the p-value is a uniform random variable between 0 and 1. 
+
+### d)
+False, because the interpret of the confidence interval is that people are 95% confident that the true proportion is between 0.393 and 0.553. 
+
+# Question 10
+p = 0.05
+
+p hat = 14 / 160 = 0.0875
+
+n = 160
+
+alpha = 0.01
+
+Hypothesis:
+
+Ho: p = 0.05
+
+Ha: p not equal 0.05
+
+Test z value:
+$Z=\frac{\hat{p}-p}{\sqrt{\frac{p*(1-p)}{n}}}= \frac{0.0875-0.05}{\sqrt{\frac{0.05*(1-0.05)}{160}}} = 2.18$
+
+P- value:
+P(Z > 2.18) = 1 - 0.9854 = 0.0146
+
+Since the p-value(0.0146) is greater than the level of significance(0.01), then we fail to reject Ho and there is no sufficient evidence to proce the hypothesis. 
